@@ -20,4 +20,4 @@ class DispositivoEntrada:
         self._marca = marca
 
     def __str__(self):
-        return f"Dispositivo de entrada[Tipo de entrada: {self._tipoEntrada}, Marca: {self._marca}]"
+        return f"Tipo de entrada: {self._tipoEntrada}, Marca: {self._marca}"

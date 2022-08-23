@@ -14,7 +14,7 @@ class Teclado(DispositivoEntrada):
         self._idTeclado = Teclado.aumentarContador()
 
     def __str__(self):
-        return f"{super().__str__()} \nTeclado[Id de teclado: {self._idTeclado}]"
+        return f"Teclado[Id de teclado: {self._idTeclado}, {super().__str__()}]"
 
 if __name__ == "__main__":
     teclado = Teclado("USB", "IQual")

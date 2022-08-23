@@ -14,7 +14,7 @@ class Raton(DispositivoEntrada):
         self._idRaton = Raton.aumentarContador()
 
     def __str__(self):
-        return f"{super().__str__()} \nRaton[Id de raton: {self._idRaton}]"
+        return f"Raton[Id de raton: {self._idRaton}, {super().__str__()}]"
 
 if __name__ == "__main__":
     raton = Raton("USB", "Logitech")
