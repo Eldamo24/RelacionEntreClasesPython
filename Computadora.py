@@ -60,7 +60,7 @@ class Computadora():
         self._raton = raton
 
     def __str__(self):
-        return f"Computadora: ID: {self._idComputadora}, Nombre: {self._nombre} \n\t{self._monitor} \n\t{self._teclado} \n\t{self._raton}"
+        return f"\n\tComputadora: ID: {self._idComputadora}, Nombre: {self._nombre} \n\t{self._monitor} \n\t{self._teclado} \n\t{self._raton}"
 
 if __name__ == "__main__":
     monitor = Monitor("HP", 24)
